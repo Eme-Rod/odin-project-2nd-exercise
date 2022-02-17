@@ -175,5 +175,21 @@ body {
 .container-four {
   display: flex;
   margin: 50px 0;
-  gap: 20px;
+  gap: 100px;
+  padding: 40px 80px;
+  border-radius: 5px;
+}
+
+.container-four > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid white;
+  border-radius: 10px;
+  padding: 5px 25px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
 }
