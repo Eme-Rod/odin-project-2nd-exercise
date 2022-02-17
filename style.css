@@ -1,0 +1,47 @@
+body {
+  background-color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  color: #f9faf8;
+}
+
+.content-one-left div:nth-child(1) {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.header,
+.content-one-left > div:nth-child(2) {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.button,
+.content-four {
+  background-color: #3882f6;
+}
+
+.content-two > div:nth-child(1) {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.content-three {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.content-three > p:nth-child(1) {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.content-three > p:nth-child(2) {
+  font-weight: 700;
+}
