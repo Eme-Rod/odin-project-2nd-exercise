@@ -2,6 +2,14 @@ body {
   background-color: #1f2937;
   font-family: "Roboto", sans-serif;
   color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.content-two,
+.content-four {
+  background-color: white;
 }
 
 .content-one-left div:nth-child(1) {
@@ -15,13 +23,8 @@ body {
   color: #e5e7eb;
 }
 
-.header-logo {
-  font-size: 24px;
-  color: #f9faf8;
-}
-
 .button,
-.content-four {
+.container-four {
   background-color: #3882f6;
 }
 
@@ -37,11 +40,140 @@ body {
   color: #1f2937;
 }
 
-.content-three > p:nth-child(1) {
+.container-three > p:nth-child(1) {
   font-style: italic;
   font-weight: 100;
 }
 
-.content-three > p:nth-child(2) {
+.container-three > p:nth-child(2) {
   font-weight: 700;
+}
+
+/* header */
+.main-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.links span {
+  padding: 0 10px;
+}
+
+.header > span:nth-child(1) {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+/* first container */
+.content-one {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.content-one-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-one-right {
+  background-color: gray;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  flex-shrink: 0;
+  height: 250px;
+}
+
+.button {
+  width: 60px;
+  text-align: center;
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+/* second container */
+.content-two {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-two-boxes {
+  margin: 50px;
+  display: flex;
+  color: #1f2937;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  margin: 0;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box > div {
+  height: 150px;
+  width: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+}
+
+.box > p {
+  text-align: center;
+}
+
+/* third container */
+.content-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-three {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding: 150px;
+}
+
+.container-three > p:nth-child(1) {
+  margin: 0;
+}
+
+.container-three > p:nth-child(2) {
+  font-size: 25px;
+  text-align: end;
+  margin: 0 50px;
+}
+
+/* fourts container */
+.content-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-four {
+  display: flex;
+  margin: 50px 0;
+  gap: 20px;
 }
